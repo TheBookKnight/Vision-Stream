@@ -13,4 +13,3 @@ async def root():
 @app.post("/process-image")
 async def process_image(image: Image):
     return image
-    # return {"message": f"Processing image at {image.uri}"}
